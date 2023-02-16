@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-counter-app/static/css/main.b8e88aac.css",
+    "main.js": "/react-counter-app/static/js/main.172a19bf.js",
+    "static/media/topography.webp": "/react-counter-app/static/media/topography.fb9a7da3caca22a00581.webp",
+    "index.html": "/react-counter-app/index.html",
+    "main.b8e88aac.css.map": "/react-counter-app/static/css/main.b8e88aac.css.map",
+    "main.172a19bf.js.map": "/react-counter-app/static/js/main.172a19bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8e88aac.css",
+    "static/js/main.172a19bf.js"
+  ]
+}
