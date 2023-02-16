@@ -1,13 +1,52 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(./img/topography.webp);
+}
+h2 {
+  color: slateblue;
+  margin-bottom: 20px;
+}
+h1 {
+  color: slateblue;
+  font-size: 3rem;
+  line-height: 70px;
+}
+.btns {
+  display: flex;
+  gap: 10px;
+}
+.btns > button {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 5px 25px;
+  background-color: slateblue;
+  color: lavender;
+  border: 3px solid lavender;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: lavender;
+  border-radius: 5px;
+  border: 3px solid slateblue;
+  text-align: center;
+}
+a {
+  margin-top: 20px;
+  color: slateblue;
+  font-weight: bold;
 }
