@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
+import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
+import Button from "@mui/material/Button";
+import Tooltip from "@mui/material/Tooltip";
 
 function App() {
   let [count, setCount] = useState(0);
@@ -19,8 +23,16 @@ function App() {
       </h2>
       <h1>{count}</h1>
       <div className="btns">
-        <button onClick={inc}>Increment</button>
-        <button onClick={dec}>Decrement</button>
+        <Tooltip title="Add" arrow>
+          <Button onClick={inc} variant="outlined">
+            <AddCircleOutlineIcon />
+          </Button>
+        </Tooltip>
+        <Tooltip title="Delete" arrow>
+          <Button onClick={dec} variant="outlined" color="error">
+            <RemoveCircleOutlineIcon />
+          </Button>
+        </Tooltip>
       </div>
       <a href="https://github.com/irfanshadikrishad" target="_blank">
         github
